@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    background-color: #1E1E1E;
+}
+
+.trabalho-css{
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+    margin: 15px 0px;
+}
+
+.col-3{
+    padding: 3px !important;
+}
+
+.tela{
+    background: url('../assets/background.png');
+    background-position: top -70px center;
+    height: 850px;
+}
+
+.logo{
+    text-align: center;
+}
+
+.mobile-logo{
+    text-align: center;
+}
+
+.login-content{
+    background-color: white;
+    height: 370px;
+    text-align: center;
+    width: 100%;
+}
+
+.sessao-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.login-input{
+    background-color: #E2E2E2;
+    border: 1px solid #E2E2E2;
+    width: 95%;
+    height: 55px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.login-submit{
+    background-color: #FFB46F;
+    border: 1px solid #FFB46F;
+    width: 95%;
+    height: 55px;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 22px;
+}
+
+.login-links{
+    margin-bottom: 10px;
+}
+
+.login-links a{
+    font-size: 15px;
+    color: #686868;
+    cursor: pointer;
+}
+
+.site-content{
+    background-color: white;
+    height: 720px;
+    text-align: center;
+    width: 100%;
+}
+
+.em-alta-text{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.card-vitrine{
+    padding:10px;
+}
+
+.card-item{
+    margin-bottom: 15px;
+}
+
+.card-desc{
+    text-align: left;
+}
+
+.desc-title{
+    font-size: 18px;
+}
+
+.desc-colecao{
+    font-size: 14px;
+    color: #686868;
+}
+
+.desc-price{
+    margin-top: 5px;
+    font-size: 26px;
+}
+
+.btn-remover{
+    background-color: #da7a7a;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.card-detalhes .total{
+    background-color: #E2E2E2;
+    width: 90%;
+    margin-left: 5%;
+    text-align: right;
+    padding: 10px;
+}
+
+.card-detalhes .comprar-submit{
+    background-color: #FFB46F;
+    border: 1px solid #FFB46F;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    height: 55px;
+    color: white;
+    font-size: 22px;
+}
